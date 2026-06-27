@@ -1,0 +1,24 @@
+[project]
+name = "learn-rag-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openAI",
+    "dotenv",
+    "langchain",
+    "langchain-text-splitters",
+    "bs4",
+    "requests",
+    "langchain-ollama",
+    "requests",
+    "pinecone",
+    "langchain-pinecone",
+    "pypdf",
+    "pymupdf",
+    "jupyter",
+    "ipykernel",
+    "langchain-community",
+    "sentence_transformers"
+]
